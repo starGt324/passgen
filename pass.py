@@ -1,4 +1,8 @@
 import random
+import time
+from datetime import datetime
+version="0.1.1v"
+random_id=random.randint(999,99999999999999999)
 try :
     user_range:int=int(input("how much string you want in your password :"))
     string_num=int(input("how much characters you want in your password :"))
@@ -44,3 +48,25 @@ else:
     ###########################################################################
     #print("Base password : ",pass_total)
     print("Gen password : ",pass_user)
+
+
+
+    ##########################history###########################################
+with open("store.txt","a+") as file:
+    file.write(f"---------------------------------------------------\n")
+    file.write(f"ID:{random_id}\n")
+    file.write(f"Date cration:{datetime.now()}\n")
+    file.write(f"password: {pass_user}\n")
+    time.sleep(1)
+    
+qs=input("Do you want to display previous password y/n:").lower()
+anser=["y","yes"]
+
+if qs in anser:
+    with open("store.txt","r") as rad:
+        reader=rad.read()
+        print(reader)
+else:
+    print("see you next time. ")
+
+
