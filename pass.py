@@ -61,11 +61,11 @@ with open("store.txt","a+") as file:
     qs=input("Do you want to display previous password y/n:").lower()
     anser=["y","yes"]
 
-    if qs in anser:
-        with open("store.txt","r") as rad:
-            reader=rad.read()
-            print(reader)
-    else:
-        print("see you next time. ")
+if qs in anser:
+    with open("store.txt","r") as rad:
+        reader=rad.read()
+        print(reader)
+else:
+    print("see you next time. ")
 
 
