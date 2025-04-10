@@ -1,4 +1,5 @@
 import random
+version="0.1.1v"
 try :
     user_range:int=int(input("how much string you want in your password :"))
     string_num=int(input("how much characters you want in your password :"))
