@@ -1,7 +1,7 @@
 import random
 import time
 from datetime import datetime
-version="0.1.1v"
+version="0.1.1v zika"
 random_id=random.randint(999,99999999999999999)
 try :
     user_range:int=int(input("how much string you want in your password :"))
