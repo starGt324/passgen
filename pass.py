@@ -58,8 +58,9 @@ with open("store.txt","a+") as file:
     file.write(f"Date cration:{datetime.now()}\n")
     file.write(f"password: {pass_user}\n")
     time.sleep(1)
-    qs=input("Do you want to display previous password y/n:").lower()
-    anser=["y","yes"]
+    
+qs=input("Do you want to display previous password y/n:").lower()
+anser=["y","yes"]
 
 if qs in anser:
     with open("store.txt","r") as rad:
