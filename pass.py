@@ -71,3 +71,18 @@ else:
     print("see you next time. ")
 
 
+####################### other function app #########################
+def fun_gen_string(string_num):
+    for s1 in range(string_num):
+        password_str+=random.choice(list_char) 
+    print(password_str)
+
+def fun_gen_int(int_num):
+    for s2 in range(int_num):
+        password_int+=random.choice(list_int)
+    print(int_num)
+
+def fun_gen_magic_char(spicial_num):
+    for s3 in range(spicial_num):
+        password_spicial+=random.choice(list_spicial)
+    print(password_spicial)
