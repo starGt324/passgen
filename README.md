@@ -14,7 +14,7 @@
   <hr>
     <b>0.1.1v.</b>
   <ul>
-    <li>Save system the script now save the passwords in file <mark>store.txt</mark> .</li>
+    <li>Save system the script now save the passwords in file <mark>password.txt</mark> .</li>
     <li>Fixing Bungs.</li>
   </ul>
 </section>
