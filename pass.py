@@ -53,7 +53,7 @@ else:
 
 
 ##########################history###########################################
-with open("store.txt","a+") as file:
+with open("password.txt","a+") as file:
     file.write(f"---------------------------------------------------\n")
     file.write(f"ID:{random_id}\n")
     file.write(f"Date cration:{datetime.now()}\n")
@@ -64,7 +64,7 @@ qs=input("Do you want to display previous password y/n:").lower()
 anser=["y","yes"]
 
 if qs in anser:
-    with open("store.txt","r") as rad:
+    with open("password.txt","r") as rad:
         reader=rad.read()
         print(reader)
 else:
