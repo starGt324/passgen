@@ -17,4 +17,13 @@
     <li>Save system the script now save the passwords in file <mark>password.txt</mark> .</li>
     <li>Fixing Bungs.</li>
   </ul>
+    <b>0.1.3v.</b>
+  <ul>
+    <li>add new script to main folder menu.py.</li>
+    <li><code>menu.py</code> It will be the default script for the system.</li>
+  </ul>
 </section>
+<h5>Note for this update:</h5>
+<p>
+  In an upcoming update, the program's generation architecture will be changed to become more powerful and efficient, incorporating new ideas.
+</p>
