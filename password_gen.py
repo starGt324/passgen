@@ -6,11 +6,13 @@ import secrets
 from datetime import datetime
 import string
 from colorama import Fore,Back,Style
-
+version="0.1.4v"
 random_id=random.randint(999,99999999999999999)
 try:
     userinput=int(input("add a length of your password :"))
-
+    if userinput<=0:
+        userinput=12
+        
 except ValueError as eror:
     print(eror)
     print("the input must be a number next time.")
