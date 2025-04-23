@@ -11,8 +11,9 @@ random_id=random.randint(999,99999999999999999)
 try:
     userinput=int(input("add a length of your password :"))
     if userinput<=0:
+        print("the preset activite you must input >2 number...")
         userinput=12
-        
+
 except ValueError as eror:
     print(eror)
     print("the input must be a number next time.")
