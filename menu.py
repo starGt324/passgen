@@ -51,3 +51,5 @@ else:
             password+=chiser
         
         print(Fore.YELLOW,"your password (magic string): ",password)
+
+
